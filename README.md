@@ -4,6 +4,7 @@
 
 2. Create branch `develop` as default branch.
 
+
 3. Protect branches `main` and `develop` with these rules:
 - user can't merge to both branches without pull request
 - allowed to merge to `develop` branch only if we have 2 approvals
@@ -12,6 +13,7 @@
 4. Add template (pull_request_template.md) to `.github` directory for creating issue in format:
 
 ## Describe your changes
+
 
 ## Issue ticket number and link
 
